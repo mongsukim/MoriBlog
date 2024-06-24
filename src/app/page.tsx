@@ -19,7 +19,7 @@ export default function Home() {
                 <PostCard key={post._id} post={post}/> // post prop을 명시적으로 전달
             ))}
 
-            <div className="mx-auto w-full">
+            <div className="flex items-center  w-full">
                 <div className='flex justify-center gap-4'>
                     <Link href='https://github.com/mongsukim' target='_blank'>
                         <IconGithub
@@ -28,17 +28,12 @@ export default function Home() {
                             width={30}
                         />
                     </Link>
-                    <Link href='https://www.linkedin.com/in/developermong2/' target='_blank'>
-                        <IconLinkedin
-                            className='fill-foreground transition hover:fill-pink-600'
-                            height={30}
-                            width={30}
-                        />
-                    </Link>
+
                 </div>
 
+
                 <a href='https://hits.sh/hits.sh/github.com/mongsukim/MoriBlog/'>
-                    <Image
+                    <img
                         alt='Hits'
                         src='https://hits.sh/hits.sh/github.com/mongsukim/MoriBlog.svg?view=today-total&style=for-the-badge&label=visitors&extraCount=0&color=2A415F&labelColor=2A415F'
                     />
