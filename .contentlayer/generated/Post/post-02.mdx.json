@@ -1,0 +1,18 @@
+{
+  "title": "두번째 블로그 글입니다.",
+  "date": "2024-06-23T15:00:00.000Z",
+  "body": {
+    "raw": "\r\nvercel 로 배포!\r\n\r\n## 제목\r\n\r\n#### 부제목\r\n\r\n```typescript\r\nfunction blog() {}\r\n```\r\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var r in e)o(n,r,{get:e[r],enumerable:!0})},a=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let c of m(e))!x.call(n,c)&&c!==r&&o(n,c,{get:()=>e[c],enumerable:!(s=p(e,c))||s.enumerable});return n};var _=(n,e,r)=>(r=n!=null?l(u(n)):{},a(e||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),f=n=>a(o({},\"__esModule\",{value:!0}),n);var d=g((C,i)=>{i.exports=_jsx_runtime});var w={};j(w,{default:()=>M,frontmatter:()=>b});var t=_(d()),b={title:\"\\uB450\\uBC88\\uC9F8 \\uBE14\\uB85C\\uADF8 \\uAE00\\uC785\\uB2C8\\uB2E4.\",date:new Date(17191872e5)};function h(n){let e=Object.assign({p:\"p\",h2:\"h2\",h4:\"h4\",pre:\"pre\",code:\"code\"},n.components);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.p,{children:\"vercel \\uB85C \\uBC30\\uD3EC!\"}),`\n`,(0,t.jsx)(e.h2,{children:\"\\uC81C\\uBAA9\"}),`\n`,(0,t.jsx)(e.h4,{children:\"\\uBD80\\uC81C\\uBAA9\"}),`\n`,(0,t.jsx)(e.pre,{children:(0,t.jsx)(e.code,{className:\"language-typescript\",children:`function blog() {}\n`})})]})}function D(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,Object.assign({},n,{children:(0,t.jsx)(h,n)})):h(n)}var M=D;return f(w);})();\n;return Component;"
+  },
+  "_id": "post-02.mdx",
+  "_raw": {
+    "sourceFilePath": "post-02.mdx",
+    "sourceFileName": "post-02.mdx",
+    "sourceFileDir": ".",
+    "contentType": "mdx",
+    "flattenedPath": "post-02"
+  },
+  "type": "Post",
+  "url": "/posts/post-02"
+}
